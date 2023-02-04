@@ -21,6 +21,14 @@ const COLORS = [
     "--english-violet",
     "--terra-cotta",
   ],
+  [
+    "--rosewood",
+    "--medium-turquoise",
+    "--orange-yellow",
+    "--indigo-dye",
+    "--kombu-green",
+    "--palatinate-purple",
+  ],
 ];
 
 setInterval(changeColorTheme, 2000);
@@ -62,7 +70,7 @@ function changeConfiguration() {
 }
 
 function changeColorTheme() {
-  const x = rand(0, 1);
+  const x = rand(0, COLORS.length - 1);
   for (let i = 0; i < shapes.length; i++) {
     shapes[i].style.backgroundColor = `var(${COLORS[x][i]})`;
   }

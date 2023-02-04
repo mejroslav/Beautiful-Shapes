@@ -18,6 +18,13 @@
   --maya-blue: hsla(204, 100%, 70%, 1);
   --english-violet: hsla(286, 23%, 37%, 1);
   --terra-cotta: hsla(12, 62%, 63%, 1);
+
+  --medium-turquoise: hsla(181, 69%, 61%, 1);
+  --orange-yellow: hsla(43, 90%, 54%, 1);
+  --indigo-dye: hsla(201, 79%, 23%, 1);
+  --rosewood: hsla(3, 78%, 18%, 1);
+  --kombu-green: hsla(88, 38%, 15%, 1);
+  --palatinate-purple: hsla(304, 59%, 20%, 1);
 }
 
 body {
@@ -70,8 +77,8 @@ body {
 }
 
 #content-wrapper[data-roundness="4"] > .shape {
-    border-radius: 9rem;
-  }
+  border-radius: 9rem;
+}
 
 #content-wrapper[data-configuration="1"] > .shape:nth-child(1) {
   left: 0;
