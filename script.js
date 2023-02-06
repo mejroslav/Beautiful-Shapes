@@ -31,7 +31,8 @@ const COLORS = [
   ],
 ];
 
-setInterval(changeColorTheme, 2000);
+setInterval(changeColorTheme, 3000);
+setInterval(changeConfiguration, 4000)
 
 document.addEventListener("keydown", (e) => {
   switch (e.key) {
@@ -46,6 +47,8 @@ document.addEventListener("keydown", (e) => {
     case "Escape":
       break;
     case "Shift":
+      break;
+    case "Control":
       break;
     case "Backspace":
       text.innerText = text.innerText.substring(0, text.innerText.length - 1);
@@ -62,10 +65,9 @@ document.addEventListener("keydown", (e) => {
   if (e.code === "Space") text.innerText += "\u00a0";
 });
 
-console.log(wrapper);
 
 function changeConfiguration() {
-  wrapper.dataset.configuration = rand(1, 7);
+  wrapper.dataset.configuration = rand(1, 8);
   wrapper.dataset.roundness = rand(1, 4);
 }
 

@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,6 +29,8 @@
   --rosewood: hsla(3, 78%, 18%, 1);
   --kombu-green: hsla(88, 38%, 15%, 1);
   --palatinate-purple: hsla(304, 59%, 20%, 1);
+
+  --font-family: 'Maven Pro', sans-serif;
 }
 
 body {
@@ -44,7 +50,8 @@ body {
   border: 0;
   height: 5rem;
   color: white;
-  font-family: "SpaceMono", monospace;
+  font-family: var(--font-family);
+
   font-size: 5rem;
 }
 
@@ -383,3 +390,49 @@ body {
   height: 25%;
   width: 40%;
 }
+
+/* CONFIGURATION 8 */
+
+#content-wrapper[data-configuration="8"] > .shape:nth-child(1) {
+  left: 0%;
+  top: 0;
+  height: 50%;
+  width: 50%;
+}
+
+#content-wrapper[data-configuration="8"] > .shape:nth-child(2) {
+  left: 50%;
+  top: 0%;
+  height: 50%;
+  width: 50%;
+}
+
+#content-wrapper[data-configuration="8"] > .shape:nth-child(3) {
+  left: 0%;
+  top: 85%;
+  height: 15%;
+  width: 100%;
+}
+
+#content-wrapper[data-configuration="8"] > .shape:nth-child(5) {
+  left: 50%;
+  top: 55%;
+  height: 25%;
+  width: 50%;
+}
+
+#content-wrapper[data-configuration="8"] > .shape:nth-child(4) {
+  left: 0%;
+  top: 55%;
+  height: 25%;
+  width: 50%;
+}
+
+#content-wrapper[data-configuration="8"] > .shape:nth-child(6) {
+  left: 2.7%;
+  top: 87.5%;
+  height: 9%;
+  width: 95%;
+}
+
+
