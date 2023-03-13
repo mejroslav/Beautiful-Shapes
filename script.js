@@ -11,7 +11,7 @@ const COLORS = [
     "--flame",
     "--oxford-blue",
     "--morning-blue",
-    "-asparagus",
+    "--asparagus",
   ],
   [
     "--red-salsa",
