@@ -30,6 +30,20 @@
   --kombu-green: hsla(88, 38%, 15%, 1);
   --palatinate-purple: hsla(304, 59%, 20%, 1);
 
+  --saffron: hsla(47, 81%, 56%, 1);
+  --yinmn-blue: hsla(217, 48%, 39%, 1);
+  --razzmatazz: hsla(333, 100%, 45%, 1);
+  --mint: hsla(168, 97%, 41%, 1);
+  --tomato: hsla(5, 96%, 61%, 1);
+  --melon: hsla(4, 67%, 82%, 1);
+
+  --cerulean: hsla(196, 36%, 41%, 1);
+  --dark-slate-gray: hsla(178, 41%, 25%, 1);
+  --eggshell: hsla(53, 44%, 88%, 1);
+  --orange-crayola: hsla(21, 90%, 62%, 1);
+  --saffron: hsla(43, 92%, 63%, 1);
+  --persian-indigo: hsla(270, 91%, 21%, 1);
+
   --font-family: 'Maven Pro', sans-serif;
 }
 

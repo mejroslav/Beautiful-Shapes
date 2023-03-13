@@ -29,6 +29,22 @@ const COLORS = [
     "--kombu-green",
     "--palatinate-purple",
   ],
+  [
+    "--saffron",
+    "--yinmn-blue",
+    "--razzmatazz",
+    "--mint",
+    "--tomato",
+    "--melon",
+  ],
+  [
+    "--cerulean",
+    "--dark-slate-gray",
+    "--eggshell",
+    "--orange-crayola",
+    "--saffron",
+    "--persian-indigo",
+  ]
 ];
 
 setInterval(changeColorTheme, 3000);
