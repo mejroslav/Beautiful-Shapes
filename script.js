@@ -44,11 +44,11 @@ const COLORS = [
     "--orange-crayola",
     "--saffron",
     "--persian-indigo",
-  ]
+  ],
 ];
 
-setInterval(changeColorTheme, 3000);
-setInterval(changeConfiguration, 4000)
+setInterval(changeColorTheme, 8000);
+setInterval(changeConfiguration, 6000)
 
 document.addEventListener("keydown", (e) => {
   switch (e.key) {
